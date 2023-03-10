@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ["./src/**/*.{html,js}"],
   theme: {
     colors: {
       // dark theme
@@ -12,6 +12,9 @@ module.exports = {
       "background-message-dark": "#2B2B2B",
       "text-dark": "#606060",
       "rooms-button-dark": "#606060",
+      "nickname-button": "#007EF4",
+      "error-text": "#FF6464",
+      "error-border": "#DD1E1E",
       // light theme
     },
   },

@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.click:active {
+  opacity: 0.2;
+}
+.click:hover {
+  background-color: rgb(84, 138, 192);
+  color: white;
+  transition: all 0.15s;
+}
+
+.error-border {
+  border: 2px solid #dd1e1e;
+}
+
+.rounded-bottom {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.rounded-top {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
