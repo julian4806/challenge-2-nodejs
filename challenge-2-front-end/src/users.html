@@ -1,0 +1,257 @@
+<!doctype html>
+<html class="h-screen">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='assets/css/style.css'>
+</head>
+
+<!-- min-width 260px -->
+
+<body class="h-full flex flex-col background-corners">
+    <!-- nav-bar -->
+    <nav class="h-16 flex justify-between items-center w-full bg-header-footer-dark px-8 py-4 rounded-b-xl">
+        <!-- back button -->
+        <div class="text-white md:hidden h-8 w-8">
+            <!-- <img src="assets/img/back.svg" class="h-full"> -->
+        </div>
+        <h2 class="text-white flex md:gap-2 flex-col md:flex-row items-center md:items-end">
+            <span class="text-sm md:text-lg">Enter ChatBox</span>
+            <span class="text-[10px] md:text-[7px] text-nickname-navbar mb-[3px]">#Enter ChatBox</span>
+        </h2>
+        <ul class="text-white hidden gap-4 md:flex">
+            <li>
+                <button
+                    class="bg-button-rooms text-button-rooms-text px-2 py-1 text-[10px] rounded-full flex items-center gap-2">
+                    <span>ROOMS</span>
+                    <i class="h-2 w-2">
+                        <img src="assets/img/msg.svg" alt="" class="h-full">
+                    </i>
+                </button>
+            </li>
+            <li>
+                <button class="bg-nickname-button px-2 py-1 text-[10px] rounded-full flex items-center gap-2">
+                    <span>USERS</span>
+                    <i class="h-2 w-2">
+                        <img src="assets/img/person.svg" alt="" class="h-full">
+                    </i>
+                </button>
+            </li>
+            <li>
+                <button class="bg-nickname-button px-2 py-1 text-[10px] rounded-full flex items-center gap-2">
+                    <span>QUIT</span>
+                    <i class="h-2 w-2">
+                        <img src="assets/img/leave.svg" alt="" class="h-full">
+                    </i>
+                </button>
+            </li>
+        </ul>
+        <!-- hamburger button -->
+        <div class="md:hidden" class="h-8 w-8">
+            <img src="assets/img/hamburger.svg" class="w-full">
+        </div>
+    </nav>
+    <main class="h-full flex flex-col md:flex-row">
+        <!-- sidebar -->
+        <div class="w-1/3 hidden md:flex bg-background-sidebar-dark items-center justify-start pt-8 flex-col gap-8">
+            <span class="text-2xl text-white">54 users online</span>
+
+        </div>
+        <!-- users list -->
+        <div class="w-full h-full bg-background-sidebar-dark md:bg-background-light p-8">
+            <!-- message-wrapper -->
+            <div class="flex gap-8 items-start w-full h-full">
+                <div class="w-full h-full flex flex-col items-center gap-4 px-8 py-4 text-white md:text-black">
+                    <div class="w-full flex justify-between">
+                        <div>
+                            <span class="">🟢</span>
+                            <span class="">MangoManny</span>
+                        </div>
+                        <span class="text-black">Chillout place</span>
+                    </div>
+                    <div class="w-full flex justify-between">
+                        <div>
+                            <span class="">🔴</span>
+                            <span class="">Cinderella</span>
+                        </div>
+                        <span class="text-black">Chillout place</span>
+                    </div>
+                    <div class="w-full flex justify-between">
+                        <div>
+                            <span class="">🟢</span>
+                            <span class="">ThaBeast</span>
+                        </div>
+                        <span class="text-black">Sports</span>
+                    </div>
+                    <div class="w-full flex justify-between">
+                        <div>
+                            <span class="">🔴</span>
+                            <span class="">Ceesje</span>
+                        </div>
+                        <span class="text-black">Chillout place</span>
+                    </div>
+                    <div class="w-full flex justify-between">
+                        <div>
+                            <span class="">🔴</span>
+                            <span class="">Rick</span>
+                        </div>
+                        <span class="text-black">Sports</span>
+                    </div>
+                    <div class="w-full flex justify-between">
+                        <div>
+                            <span class="">🔴</span>
+                            <span class="">Andrea</span>
+                        </div>
+                        <span class="text-black">Sports</span>
+                    </div>
+                    <div class="w-full flex justify-between">
+                        <div>
+                            <span class="">🔴</span>
+                            <span class="">MissyMessy</span>
+                        </div>
+                        <span class="text-black">Series & Movies</span>
+                    </div>
+                    <div class="w-full flex justify-between">
+                        <div>
+                            <span class="">🔴</span>
+                            <span class="">Ferrari2001</span>
+                        </div>
+                        <span class="text-black">Chillout place</span>
+                    </div>
+                    <div class="w-full flex justify-between">
+                        <div>
+                            <span class="">🔴</span>
+                            <span class="">MangoManny</span>
+                        </div>
+                        <span class="text-black">Chillout place</span>
+                    </div>
+                    <div class="w-full flex justify-between">
+                        <div>
+                            <span class="">🔴</span>
+                            <span class="">Cinderella</span>
+                        </div>
+                        <span class="text-black">Chillout place</span>
+                    </div>
+                    <div class="w-full flex justify-between">
+                        <div>
+                            <span class="">🔴</span>
+                            <span class="">ThaBeast</span>
+                        </div>
+                        <span class="text-black">Sports</span>
+                    </div>
+                    <div class="w-full flex justify-between">
+                        <div>
+                            <span class="">🔴</span>
+                            <span class="">Ceesje</span>
+                        </div>
+                        <span class="text-black">Chillout place</span>
+                    </div>
+                    <div class="w-full flex justify-between">
+                        <div>
+                            <span class="">🔴</span>
+                            <span class="">Rick</span>
+                        </div>
+                        <span class="text-black">Sports</span>
+                    </div>
+                    <div class="w-full flex justify-between">
+                        <div>
+                            <span class="">🔴</span>
+                            <span class="">Andrea</span>
+                        </div>
+                        <span class="text-black">Sports</span>
+                    </div>
+                </div>
+                <div class="w-full h-full flex-col items-center gap-4 px-8 py-4 hidden md:flex">
+                    <div class="w-full flex justify-between">
+                        <div>
+                            <span class="">🔴</span>
+                            <span class="">MangoManny</span>
+                        </div>
+                        <span>Chillout place</span>
+                    </div>
+                    <div class="w-full flex justify-between">
+                        <div>
+                            <span class="">🔴</span>
+                            <span class="">Cinderella</span>
+                        </div>
+                        <span>Chillout place</span>
+                    </div>
+                    <div class="w-full flex justify-between">
+                        <div>
+                            <span class="">🔴</span>
+                            <span class="">ThaBeast</span>
+                        </div>
+                        <span>Sports</span>
+                    </div>
+                    <div class="w-full flex justify-between">
+                        <div>
+                            <span class="">🔴</span>
+                            <span class="">Ceesje</span>
+                        </div>
+                        <span>Chillout place</span>
+                    </div>
+                    <div class="w-full flex justify-between">
+                        <div>
+                            <span class="">🔴</span>
+                            <span class="">Rick</span>
+                        </div>
+                        <span>Sports</span>
+                    </div>
+                    <div class="w-full flex justify-between">
+                        <div>
+                            <span class="">🔴</span>
+                            <span class="">Andrea</span>
+                        </div>
+                        <span>Sports</span>
+                    </div>
+                    <div class="w-full flex justify-between">
+                        <div>
+                            <span class="">🔴</span>
+                            <span class="">MissyMessy</span>
+                        </div>
+                        <span>Series & Movies</span>
+                    </div>
+                    <div class="w-full flex justify-between">
+                        <div>
+                            <span class="">🔴</span>
+                            <span class="">Ferrari2001</span>
+                        </div>
+                        <span>Chillout place</span>
+                    </div>
+                    <div class="w-full flex justify-between">
+                        <div>
+                            <span class="">🔴</span>
+                            <span class="">MangoManny</span>
+                        </div>
+                        <span>Chillout place</span>
+                    </div>
+                    <div class="w-full flex justify-between">
+                        <div>
+                            <span class="">🔴</span>
+                            <span class="">Cinderella</span>
+                        </div>
+                        <span>Chillout place</span>
+                    </div>
+                    <div class="w-full flex justify-between">
+                        <div>
+                            <span class="">🔴</span>
+                            <span class="">ThaBeast</span>
+                        </div>
+                        <span>Sports</span>
+                    </div>
+                    <div class="w-full flex justify-between">
+                        <div>
+                            <span class="">🔴</span>
+                            <span class="">Ceesje</span>
+                        </div>
+                        <span>Chillout place</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-header-footer-dark h-16 w-full rounded-t-xl flex justify-center items-center text-white"></footer>
+</body>
+
+</html>
