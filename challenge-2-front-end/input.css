@@ -34,15 +34,6 @@
   background-color: black;
 }
 
-.background-corners {
-  background: linear-gradient(
-    to right,
-    #3e3e3e 0%,
-    #3e3e3e 50%,
-    #e3e3e3 50%,
-    #e3e3e3 100%
-  );
-}
 .bg-tp {
   background: none;
 }
